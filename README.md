@@ -205,9 +205,6 @@ Contributions are welcome! Feel free to:
 - [LangChain](https://www.langchain.com/) - For the LLM integration
 - [Gradio](https://www.gradio.app/) - For the beautiful UI framework
 
-## 📧 Contact
-
-Have questions or suggestions? Feel free to reach out!
 
 ---
 
