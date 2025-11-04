@@ -1,0 +1,13 @@
+[project]
+name = "mcpilot"
+version = "0.1.0"
+description = "MCPilot - An AI assistant powered by Google Gemini with MCP tool integration"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "langchain-google-genai>=2.0.0",
+    "langchain<1.0.0,>=0.3.0",
+    "mcp-use==1.3.12",
+    "python-dotenv>=1.0.0",
+    "gradio>=4.0.0",
+]

@@ -1,0 +1,34 @@
+{
+    "mcpServers": {
+      "playwright": {
+        "command": "npx",
+        "args": [
+          "@playwright/mcp@latest"
+        ]
+      },
+      "duckduckgo-search": {
+        "command": "npx",
+        "args": [
+          "-y",
+          "duckduckgo-mcp-server"
+        ]
+      },
+      "filesystem": {
+        "command": "npx",
+        "args": [
+          "-y",
+          "@modelcontextprotocol/server-filesystem",
+          "/Users/khushisavaliya/Downloads/Projects/mcpproj1"
+        ]
+      },
+      "git": {
+        "command": "npx",
+        "args": [
+          "-y",
+          "@modelcontextprotocol/server-git",
+          "--repository",
+          "/Users/khushisavaliya/Downloads/Projects/mcpproj1"
+        ]
+      }
+    }
+}
